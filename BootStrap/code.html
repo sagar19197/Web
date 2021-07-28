@@ -2,60 +2,269 @@
 <html>
 	<head>
 		<title>Webpage</title>
-		
-		<!--linking personal css -->
-		<link rel="stylesheet" href="css/style.css">	
-				
 		<!--linking file -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		
+		
+		<!--linking personal css -->
+		<link rel="stylesheet" href="css/style.css">	
+		
 		<!--bootstrap stuff -->
-		<!-- Css -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 		<!--Popper,js and Jquery -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-			<a href="/" class="navbar-brand">Brand</a>
+		<!--navigation bar starts -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+			<a href="/" class="navbar-brand">Brand Name</a>
 			<div class="collapse navbar-collapse">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-					<a href="/" class="nav-link">Home</a>
+						<a class="nav-link" href="/">Home</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a href="/" class="nav-link dropdown-toggle" data-toggle="dropdown">Features</a>
 						<div class="dropdown-menu">
-							<a href="/" class="dropdown-item">Feature 1</a>
-							<a href="/" class="dropdown-item">Feature 2</a>
-							<a href="/" class="dropdown-item">Feature 3</a>
+							<a class="dropdown-item" href="/">Feature 1</a>
+							<a class="dropdown-item" href="/">Feature 2</a>
+							<a class="dropdown-item" href="/">Feature 3</a>
 						</div>
 					</li>
 					<li class="nav-item">
-						<a href="/" class="nav-link">License</a>
+						<a class="nav-link">Pricing</a>
 					</li>
 					<li class="nav-item">
-						<a href="/" class="nav-link">About</a>
+						<a class="nav-link">About us</a>
 					</li>
-				</ul>
+				</ul>				
 			</div>
 		</nav>
+		<!--navigation ends -->
 		
+		<!-- header part starts -->
 		<header class="w-100 full-h" id="main-head">
 			<div class="container h-100">
 				<div class="row text-light h-100">
-					<div class="co1-12 col-md-6 align-self-center">
+					<div class="col-12 col-md-6 align-self-center">
 						<h1><strong>Let's Talk</strong></h1>
-						<h3>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						</h3>			
+						<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio debitis eligendi
+                        			laboriosam ex iusto reiciendis temporibus id. Illo at eius animi velit accusamus error ratione
+                        			est, commodi iure eum.</h3>
 					</div>
 				</div>
-			</div>					
+			</div>
 		</header>
+		<!-- header ends -->	
+
+		<!-- Page section1 starts here -->
+		<section class="page-section">
+			<div class="container">	
+				<div class="text-center">
+					<h1 class="section-heading text-uppercase">Services</h1>
+					<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<i class="fas fa-camera fa-7x text-warning"></i>
+						<h4 class="my-3">Photography</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio debitis eligendi
+                        			laboriosam ex iusto reiciendis temporibus id. Illo at eius animi velit accusamus error ratione
+                        			est.
+						</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<i class="fas fa-hamburger fa-7x text-warning"></i>
+						<h4 class="my-3">Food</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio debitis eligendi
+                        			laboriosam ex iusto reiciendis temporibus id. Illo at eius animi velit accusamus error ratione
+                        			est.
+						</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<i class="fas fa-skating fa-7x text-warning"></i>
+						<h4 class="my-3">Skating</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio debitis eligendi
+                        			laboriosam ex iusto reiciendis temporibus id. Illo at eius animi velit accusamus error ratione
+                        			est.
+						</p>
+					</div>
+				</div> 
+			</div>
+		</section>
+		<!-- page section1 ends here -->	
+		
+		<!-- cards section starts here -->
+		<section class="page-section bg-light">
+			<div class="container">
+				<div class="text-center">
+					<h1 class="section-heading text-uppercase">Products</h1>
+					<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+				</div>
+			<!-- cards -->
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="card mb-3">
+					<div class="card-header">
+						<h3>Card Header</h3>
+					</div>
+					<div class="card-body">
+					<h5>Special title treatment</h5>
+					<h6 class="text-muted">Support card subtitle</h6>
+					</div>
+					<img src="https://picsum.photos/300/200" alt="Hotel residence">
+					<div class="card-footer">
+						<h5 class="text-muted">Updated 2 days ago</h5>
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="card mb-3">
+						<div class ="card-header">
+							<h3>Card Header</h3>
+						</div>
+						<div class="card-body">
+						<h5>Special title treatment</h5>
+						<h6 class="text-muted">Support card subtitle</h6>
+						</div>
+						<img src="https://picsum.photos/300/203" alt="Hotel residence">
+						<div class="card-footer">
+						<h5 class="text-muted">Updated 2 days ago</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="card mb-3">
+						<div class ="card-header">
+							<h3>Card Header</h3>
+						</div>
+						<div class="card-body">
+						<h5>Special title treatment</h5>
+						<h6 class="text-muted">Support card subtitle</h6>
+						</div>
+						<img src="https://picsum.photos/300/204" alt="Hotel residence">
+						<div class="card-footer">
+						<h5 class="text-muted">Updated 2 days ago</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="card mb-3">
+						<div class ="card-header">
+							<h3>Card Header</h3>
+						</div>
+						<div class="card-body">
+						<h5>Special title treatment</h5>
+						<h6 class="text-muted">Support card subtitle</h6>
+						</div>
+						<img src="https://picsum.photos/300/205" alt="Hotel residence">
+						<div class="card-footer">
+						<h5 class="text-muted">Updated 2 days ago</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="card mb-3">
+						<div class ="card-header">
+							<h3>Card Header</h3>
+						</div>
+						<div class="card-body">
+						<h5>Special title treatment</h5>
+						<h6 class="text-muted">Support card subtitle</h6>
+						</div>
+						<img src="https://picsum.photos/300/206" alt="Hotel residence">
+						<div class="card-footer">
+						<h5 class="text-muted">Updated 2 days ago</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<div class="card mb-3">
+						<div class ="card-header">
+							<h3>Card Header</h3>
+						</div>
+						<div class="card-body">
+						<h5>Special title treatment</h5>
+						<h6 class="text-muted">Support card subtitle</h6>
+						</div>
+						<img src="https://picsum.photos/300/207" alt="Hotel residence">
+						<div class="card-footer">
+						<h5 class="text-muted">Updated 2 days ago</h5>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>		
+		<!-- cards section ends here -->
+			
+		
+		<!--contact details section starts-->
+		
+		<section class="page-section bg-secondary">
+			<div class="container">
+				<div class="text-center">
+					<h1 class="section-heading text-uppercase text-light">Contact Us</h1>		
+					<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+				</div>	
+				<form action="/">
+					<div class="row mb-5">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input class="form-control-lg w-100" type="text" placeholder="Your Name" required>
+							</div>
+							
+							<div class="form-group">
+								<input class="form-control-lg w-100" type="email" placeholder="Your Email" required>
+							</div>
+							
+							<div class="form-group">
+								<input class="form-control-lg w-100" type="number" placeholder="Your Phone Number" required>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group h-100">
+								<textarea class="form-control-lg w-100" style="height:91%" type="text" placeholder="Any Message"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="text-center">
+						<button class="btn btn-lg btn-primary">SEND MESSAGE</button>
+					</div>
+				</form>
+			</div>	
+		</section>		
+
+		<!-- contact details end -->
+
+		<!--footer start -->
+		
+		<section class=" footer py-5">
+		<div class="container">
+		<div class="row" align-item-center>
+			<div class="col-lg-4 text-lg-left">
+				Copyright Sagar_suman
+			</div>
+			<div class="col-lg-4">
+				<i class="fab fa-facebook text-primary fa-3x mr-3"></i>
+				<i class="fab fa-google text-primary fa-3x mr-3"></i>
+				<i class="fab fa-twitter text-primary fa-3x mr-3"></i>
+				<i class="fab fa-instagram text-primary fa-3x mr-3"></i>
+			</div>
+			<div class="col-lg-4 text-lg-right">
+				<a href="/" class="mr-3">Privacy policy</a>
+				<a href="/">Terms of Use</a>
+			</div>
+				
+		</div>
+		</div>
+		</section>
+		
+		<!-- footer ends -->
+
 
 	</body>
 </html>
