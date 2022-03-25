@@ -1,0 +1,24 @@
+/*This stylesheet for session s3*/
+h3 {
+	background:yellow;
+	color:green;
+}
+/* element selecotr*/
+a{
+	background:green;
+}
+
+/* id selector */
+#id1{
+	color: #ffc107;
+    	background: #341ee9;
+}
+/*class selector */
+.class1{
+	background:grey;
+	color:purple;
+}
+/*group selector*/
+#id1, .class1, h2{
+	font-style:italic;
+}

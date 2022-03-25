@@ -1,0 +1,51 @@
+/* This css is for session 4.*/
+
+h2{
+	background-color:darkgreen;
+	color: white;
+	font-family:'Ubuntu', sans-serif;
+	/* Lets learn fonts*/
+}
+
+#id1{
+	font-family : Arial;
+	font-size:1em;
+	/*font-style:italic;*/
+	line-height:1em;
+	font-weight:bold;
+	color : rgb(100,50,10);
+}
+
+#id2{
+	font-family:'Lobster',cursive;
+	font-size:1.1em;
+	color:#ee11aa;
+	background-color:lime;
+}
+
+#id3{
+	font-family: sans-serif;
+	color:rgb(22,10,99);
+}
+a{
+	font-family: Sans-serif;
+	background-color:orange;
+}
+
+body{
+	background-color:rgb(150,180,200);
+	background-image:url('https://picsum.photos/500/500');
+	background-repeat:no-repeat;
+	background-position:center right;
+	border:12px solid red;
+	border-top-left-radius:10%;
+	border-bottom-right-radius:10%;
+	border-top-color:green;
+	border-bottom-color:yellow;
+	border-left-color:blue;
+}
+
+img{
+	background-color:grey;
+	border-radius:30%;
+}
